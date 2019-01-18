@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  display: box-border:
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+.header--bar {
+  width: 100vw;
+  height: 32px;
+  padding: 1.2rem 0;
+  .header__title {
+    left: 0;
+    font-size: 1.75rem;
+  }
+  a {
+  color: ##1195c8
+  }
+}
+
