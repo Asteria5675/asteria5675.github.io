@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-  display: box-border:
+  box-sizing: box-border;
   margin: 0;
   background-color: #fff;
   color: #000;
