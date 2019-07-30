@@ -3,7 +3,6 @@
 
 /* Variables */
 :root {
-    --profile-radius: 50%; /* Discord/Theme's Default - 50%  - Chat Avatars */
     --button-radius: 0px; /* Discord Default - 3px | Theme's Default - 0px */
     --channel-radius: 6px; /* Discord Default - 3px | Theme's Default - 6px */
     /* Dark Mode */
