@@ -1,0 +1,67 @@
+/* Server Settings Menu */
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] {
+    width: 240px;
+    left: 72px !important;
+    top: 70.5px !important;
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .menu-3sdvDG {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     border-radius: 0;
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .menu-3sdvDG .item-1tOPte {
+    padding: 5px 8px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .item-1tOPte .label-22pbtT {
+    order: 1;
+    padding-left: 0.52rem;
+    font-weight: 200;
+    position: relative;
+    --server-settings-before: '-';
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .label-22pbtT::before {
+    content: var(--server-settings-before);
+    position: absolute;
+    left: 0;
+    color: currentColor;
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .item-1tOPte:not(.colorBrand-ROmMP1):not(.colorDanger-2qLCe1) .label-22pbtT {
+    color: #fff;
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .iconContainer-2-XQPY {
+    padding: 0;
+    margin: 0
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .separator-2I32lJ {
+    display: none;
+}
+.layer-v9HyYc[style*="left: 82px;"][style*="top:"] .menu-3sdvDG .item-1tOPte.colorDanger-2qLCe1:hover{
+    background-color: #9818182e;
+}
+/* Context Menu */
+.scroller-3BxosC {padding: 0}
+.scroller-3BxosC .item-1tOPte {border-radius: 0}
+.scroller-3BxosC .item-1tOPte + .item-1tOPte {margin-top: 3px;}
+
+/* Squared Embeds Corners*/
+.embed-IeVjo6 {border-radius: 0;}
+
+/* Removes SVG on slider options and squares them*/
+.slider-TkfMQL svg path {
+    fill: none;
+}
+.bd-switch,
+.container-3auIfb {
+    --slider-radius: 2px;
+    --slider-rect: 0; /*10*/
+    border-radius: var(--slider-radius);
+}
+.bd-switch::after {
+    border-radius: var(--slider-radius)
+}
+.slider-TkfMQL rect {
+    rx: var(--slider-rect);
+}
