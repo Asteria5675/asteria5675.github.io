@@ -65,3 +65,16 @@
 .slider-TkfMQL rect {
     rx: var(--slider-rect);
 }
+
+/* Old Mention Badges*/
+.listItem-2P_4kh rect {fill: none !important;}
+.numberBadge-2s8kKX {
+    display: inline-block;
+    border-radius: 3px; background-clip: padding-box;
+    background-color: #f04747; -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+    color: #fff; font-size: 12px;
+    line-height: 12px; font-weight: 500;
+    padding: 2px 3px !important; text-shadow: 0 1px 0 rgba(0,0,0,.25);
+    text-transform: uppercase; align-items: center;
+}
