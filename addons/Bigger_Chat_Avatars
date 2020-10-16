@@ -1,0 +1,15 @@
+:root {
+    --avatar-size: 50px;
+    --avatar-roundness: 5%; /* 0 for square // 10px for rounded square // 50% for default circle */
+    --margin-message: -18px;/* <--- Adjust this when changing avatar size */
+}
+.message-2qnXI6 .avatar-1BDn8e { width: var(--avatar-size, 40px); height: var(--avatar-size, 40px); border-radius: var(--avatar-roundness); top: -1px}
+.cozy-3raOZG.wrapper-2a6GCs { padding-left: calc( 25px + var(--avatar-size))}
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .cozyMessage-3V1Y8y.groupStart-23k01U:not(:nth-child(n - 1)) {min-height: calc(var(--avatar-size) + 12px );}
+.cozy-3raOZG.wrapper-2a6GCs + .groupStart-23k01U {min-height: calc( 5px + var(--avatar-size))}
+.groupStart-23k01U.mentioned-xhSam7 {min-height: var(--avatar-size);}
+.cozy-3raOZG + .isUnread-3Ef-o9 ~ .cozy-3raOZG:not(.groupStart-23k01U) {margin-top: .0125rem}
+.cozy-3raOZG + .cozy-3raOZG.wrapper-2a6GCs:not(.groupStart-23k01U) {margin-top: var(--margin-message);} 
+.container-1ov-mD {margin-bottom: .85rem;}
+.cozy-3raOZG.wrapper-2a6GCs:not(.groupStart-23k01U) + div:not(.groupStart-23k01U) {margin-top: 0.125rem}
+.groupStart-23k01U.cozy-3raOZG .messageContent-2qWWxC {margin-bottom: 12px;} 
