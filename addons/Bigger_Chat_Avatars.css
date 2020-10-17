@@ -1,4 +1,4 @@
-:root {
+body {
     --avatar-size: 50px;
     --avatar-roundness: 5%; /* 0 for square // 10px for rounded square // 50% for default circle */
     --margin-message: -18px;/* <--- Adjust this when changing avatar size */
