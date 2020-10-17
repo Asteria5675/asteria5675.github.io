@@ -78,3 +78,14 @@
     padding: 2px 3px !important; text-shadow: 0 1px 0 rgba(0,0,0,.25);
     text-transform: uppercase; align-items: center;
 }
+/* Blur Emails */
+.userInfoViewing-3djV5v div:not([class]) .viewBody-1l56Sd, 
+.paymentSourceRow-3FbcL_ .subText-V8PTt8 {
+    filter: blur(12px)
+}
+.userInfoViewing-3djV5v div:not([class]) .viewBody-1l56Sd:hover, 
+.paymentSourceRow-3FbcL_ .subText-V8PTt8:hover {
+    filter: blur(0px);
+    transition: 350ms ease-in;
+    animation-delay: 4s;
+}
